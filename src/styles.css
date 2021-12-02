@@ -1,1 +1,112 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+  
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Botão inicial para abrir o chatbot */
+.open-button {
+  background-color: orangered;
+  color: white;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+
+
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Botão para enviar */
+.form-container .btn {
+  background-color: #ff6600;
+  color: white;
+  width: 100px;
+  border-radius: 50px;
+  border: 3px solid #f1f1f1;
+  font-size: 10px;
+}
+
+/* Botão para fechar */
+.form-container .cancel {
+  background-color: #d75413;
+  border-radius: 50px;
+  box-sizing: content-box;  
+  font-size: 15px;
+}
+.form-container .btn-primary {
+  background-color: #d75413;
+  border-radius: 50px;
+  box-sizing: content-box;  
+  font-size: 15px;
+}
+
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+#introducao {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  width:250px;
+  height:200px;
+}
+
+#texto-intro {
+  background-color:#ccc;
+  border-radius: 6px;
+}
+
+#texto-texto{
+  padding: 5px;
+}
+
+img {
+  width: 40px;
+  height: 35px;
+
+}
