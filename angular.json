@@ -33,8 +33,7 @@
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "src/assets/js/chat.js",
-              "src/assets/app.js",
-              "src/assets/app2.js"
+              "src/assets/app.js"
             ]
           },
           "configurations": {
