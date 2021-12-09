@@ -28,12 +28,16 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/css/chat.css",
+              "src/assets/css/typing.css",
               "src/styles.css"
+
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "src/assets/script.js"
+              "src/assets/js/chat.js",
+              "src/assets/app.js"
             ]
           },
           "configurations": {
