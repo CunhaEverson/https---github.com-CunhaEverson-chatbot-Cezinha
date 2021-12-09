@@ -10,7 +10,7 @@ O chatbot foi criado para ajudar o grupo de pessoas que atuam no Cesar, que enfr
   <h2> Solução 💡 </h2>
   
   
-Foi feita a elaboração de um sistema web com painel administrativo, que permitirá a criação de perguntas/respostas e configurações. Somado ao módulo chatbot para ser acoplado nos sistemas internos, com os questionamentos centrados no sistemas do bot para que as dúvidas dos outros setores também sejam sanadas.
+Foi feita a elaboração de um sistema web com painel administrativo, que permitirá a criação de perguntas/respostas e configurações. Somado ao módulo chatbot para ser acoplado nos sistemas internos, com os questionamentos centrados no sistemas do bot para que as dúvidas dos outros setores também sejam sanadas. Com isso, utilizamos o npm install para a instalação do FrameWorks Angular, e depois dando um git clone na pasta raiz para a execução do ng serve, e assim rodar o app. Dessa forma, conseguindo utilizar o chatbot.
 
   <h2> Tutorial Usuário 📙</h2>
   
@@ -38,7 +38,5 @@ Foi feita a elaboração de um sistema web com painel administrativo, que permit
  <b>Front-end</b>
  * HTML
  * CSS
- 
- 
 
  
