@@ -23,12 +23,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": ["src/favicon.ico", "src/assets"],
-            "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/assets/css/chat.css",
-              "src/assets/css/typing.css",
-              "src/styles.css"
-            ],
+            "styles": ["node_modules/bootstrap/dist/css/bootstrap.min.css"],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
